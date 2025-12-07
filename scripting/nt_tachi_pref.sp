@@ -14,11 +14,11 @@ bool g_lateLoad;
 bool g_autoTachi[NEO_MAXPLAYERS+1];
 
 public Plugin myinfo = {
-	name = "Tachi",
+	name = "NT Tachi Pref",
 	author = "bauxite, credits: soft as HELL",
 	description = "Changes the fire mode of the Tachi on spawn to preference",
 	version	= "0.1.0",
-	url	= ""
+	url	= "https://github.com/bauxiteDYS/SM-NT-Tachi-Pref",
 }
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
